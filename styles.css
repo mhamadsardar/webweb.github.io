@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Handjet&family=Lobster&family=Noto+Sans+Arabic:wght@600&family=Paytone+One&family=Preahvihear&family=Rubik:wght@300&display=swap');
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Handjet', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Sans Arabic', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Preahvihear', sans-serif;
+font-family: 'Rubik', sans-serif;
+scroll-behavior: smooth;
+}
+body{
+ background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+section{
+ height:100vh ;
+ display: flex;
+ justify-content: center;   
+ font-weight: bold;
+}
+.nav-bar{
+   
+    height: 30px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 10px;
+    position: sticky;
+    top: 10px;
+}
+.list {
+   
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+.list a {
+    margin-top: 5px;
+    text-decoration: dotted;
+    color: white;
+    font-weight: 200;
+    transition: 0.3s all ;
+}
+.list :hover{
+    color: red;
+  
+}
+
+img{
+   
+    height: 40%;
+    width: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#top{
+display: flex;
+height: 30px;
+background-color: #330867;
+align-items: center;
+justify-items: center;
+border-radius: 30px;
+}
+#top a{
+    color: white;
+}
+#home1{
+    border-style: dashed;
+}
